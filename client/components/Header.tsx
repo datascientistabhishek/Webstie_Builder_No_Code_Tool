@@ -21,16 +21,28 @@ export const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#products" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <a
+              href="#products"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
               Products
             </a>
-            <a href="#featured" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <a
+              href="#featured"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
               Featured
             </a>
-            <a href="#offers" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <a
+              href="#offers"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
               Offers
             </a>
-            <a href="#contact" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <a
+              href="#contact"
+              className="text-sm font-medium text-foreground hover:text-primary transition-colors"
+            >
               Contact
             </a>
           </nav>

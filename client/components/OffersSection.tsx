@@ -35,7 +35,10 @@ export const OffersSection = () => {
   ];
 
   return (
-    <section id="offers" className="w-full py-16 sm:py-20 md:py-24 bg-secondary/30">
+    <section
+      id="offers"
+      className="w-full py-16 sm:py-20 md:py-24 bg-secondary/30"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
@@ -66,9 +69,7 @@ export const OffersSection = () => {
                 {/* Icon */}
                 <div
                   className={`mb-4 inline-block p-3 rounded-lg ${
-                    offer.highlight
-                      ? "bg-white/20"
-                      : "bg-primary/10"
+                    offer.highlight ? "bg-white/20" : "bg-primary/10"
                   }`}
                 >
                   <IconComponent
@@ -106,7 +107,9 @@ export const OffersSection = () => {
                   {offer.originalPrice && (
                     <p
                       className={`text-sm line-through opacity-75 mb-1 ${
-                        offer.highlight ? "text-blue-100" : "text-muted-foreground"
+                        offer.highlight
+                          ? "text-blue-100"
+                          : "text-muted-foreground"
                       }`}
                     >
                       {offer.originalPrice}

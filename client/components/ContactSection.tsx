@@ -9,7 +9,7 @@ export const ContactSection = () => {
   });
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -26,7 +26,10 @@ export const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="w-full py-16 sm:py-20 md:py-24 bg-background">
+    <section
+      id="contact"
+      className="w-full py-16 sm:py-20 md:py-24 bg-background"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16">
           {/* Contact Form */}

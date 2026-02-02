@@ -52,7 +52,10 @@ const PRODUCTS: Product[] = [
 
 export const ProductsSection = () => {
   return (
-    <section id="products" className="w-full py-16 sm:py-20 md:py-24 bg-secondary/30">
+    <section
+      id="products"
+      className="w-full py-16 sm:py-20 md:py-24 bg-secondary/30"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
@@ -60,7 +63,8 @@ export const ProductsSection = () => {
             Our Collections
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore our curated selection of premium college merchandise designed for students like you.
+            Explore our curated selection of premium college merchandise
+            designed for students like you.
           </p>
         </div>
 

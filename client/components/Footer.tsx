@@ -15,7 +15,9 @@ export const Footer = () => {
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center text-white font-bold">
                 C
               </div>
-              <span className="font-bold text-primary text-lg">College Merch</span>
+              <span className="font-bold text-primary text-lg">
+                College Merch
+              </span>
             </Link>
             <p className="text-sm text-muted-foreground">
               Your official source for premium college merchandise and apparel.
@@ -87,7 +89,9 @@ export const Footer = () => {
 
           {/* Customer Service */}
           <div className="space-y-4">
-            <h4 className="font-semibold text-card-foreground">Customer Service</h4>
+            <h4 className="font-semibold text-card-foreground">
+              Customer Service
+            </h4>
             <ul className="space-y-2">
               <li>
                 <a

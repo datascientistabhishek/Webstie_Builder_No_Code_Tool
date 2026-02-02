@@ -14,7 +14,10 @@ export const FeaturedProductSection = () => {
   ];
 
   return (
-    <section id="featured" className="w-full py-16 sm:py-20 md:py-24 bg-background">
+    <section
+      id="featured"
+      className="w-full py-16 sm:py-20 md:py-24 bg-background"
+    >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="mb-12 md:mb-16">
@@ -48,7 +51,11 @@ export const FeaturedProductSection = () => {
                   fill="currentColor"
                   opacity="0.8"
                 />
-                <path d="M9 12 Q12 9 15 12" stroke="currentColor" strokeWidth="0.5" />
+                <path
+                  d="M9 12 Q12 9 15 12"
+                  stroke="currentColor"
+                  strokeWidth="0.5"
+                />
               </svg>
             </div>
           </div>
@@ -65,7 +72,9 @@ export const FeaturedProductSection = () => {
                   />
                 ))}
               </div>
-              <span className="text-sm text-muted-foreground">(256 reviews)</span>
+              <span className="text-sm text-muted-foreground">
+                (256 reviews)
+              </span>
             </div>
 
             {/* Title and Price */}
@@ -78,9 +87,9 @@ export const FeaturedProductSection = () => {
 
             {/* Description */}
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Crafted from premium quality fabric, this college hoodie is perfect
-              for campus life. Features a comfortable fit, durable construction, and
-              the official college branding on the chest.
+              Crafted from premium quality fabric, this college hoodie is
+              perfect for campus life. Features a comfortable fit, durable
+              construction, and the official college branding on the chest.
             </p>
 
             {/* Size Selector */}

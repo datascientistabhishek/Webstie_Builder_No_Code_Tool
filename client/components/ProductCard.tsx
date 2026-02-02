@@ -44,7 +44,9 @@ export const ProductCard = ({
 
         {/* Tag */}
         {tag && (
-          <div className={`absolute top-3 right-3 ${tagColor} text-white text-xs font-semibold px-3 py-1 rounded-full`}>
+          <div
+            className={`absolute top-3 right-3 ${tagColor} text-white text-xs font-semibold px-3 py-1 rounded-full`}
+          >
             {tag}
           </div>
         )}
@@ -67,7 +69,9 @@ export const ProductCard = ({
         <h3 className="font-semibold text-card-foreground text-lg mb-2 group-hover:text-primary transition-colors">
           {name}
         </h3>
-        <p className="text-primary font-bold text-xl mb-4">${price.toFixed(2)}</p>
+        <p className="text-primary font-bold text-xl mb-4">
+          ${price.toFixed(2)}
+        </p>
 
         {/* Add to Cart Button */}
         <button className="mt-auto w-full flex items-center justify-center gap-2 bg-primary text-white px-4 py-2.5 rounded-lg font-medium hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg">

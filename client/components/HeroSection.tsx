@@ -45,18 +45,37 @@ export const HeroSection = () => {
               >
                 {/* Simplified illustration of hoodie and t-shirt */}
                 <rect width="400" height="400" fill="none" />
-                
+
                 {/* Hoodie */}
-                <ellipse cx="150" cy="100" rx="35" ry="40" fill="white" opacity="0.1" />
+                <ellipse
+                  cx="150"
+                  cy="100"
+                  rx="35"
+                  ry="40"
+                  fill="white"
+                  opacity="0.1"
+                />
                 <path
                   d="M130 130 Q130 180 120 220 Q120 240 140 240 L140 160 L160 160 L160 240 Q180 240 180 220 Q170 180 170 130"
                   fill="white"
                   opacity="0.15"
                 />
-                <path d="M135 145 Q150 140 165 145" stroke="white" strokeWidth="2" opacity="0.2" />
+                <path
+                  d="M135 145 Q150 140 165 145"
+                  stroke="white"
+                  strokeWidth="2"
+                  opacity="0.2"
+                />
 
                 {/* T-Shirt */}
-                <ellipse cx="280" cy="110" rx="30" ry="35" fill="white" opacity="0.12" />
+                <ellipse
+                  cx="280"
+                  cy="110"
+                  rx="30"
+                  ry="35"
+                  fill="white"
+                  opacity="0.12"
+                />
                 <path
                   d="M260 140 Q250 160 250 200 Q250 220 270 220 L270 150 L290 150 L290 220 Q310 220 310 200 Q310 160 300 140"
                   fill="white"
